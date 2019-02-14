@@ -1,5 +1,5 @@
-import Login from "components/login"
+import LoginBox from "./login-box"
 
 export default () => (
-  <Login />
+  <LoginBox />
 )

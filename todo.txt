@@ -1,4 +1,5 @@
 # TODO
+- if en el login para enviar a una mutation o a otra
 - login
 
 # DONE
