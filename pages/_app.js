@@ -1,6 +1,6 @@
 import React from "react";
 import App, { Container } from "next/app";
-import WithApollo from "containers/with-apollo";
+import WithApollo from "components/with-apollo";
 
 class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {

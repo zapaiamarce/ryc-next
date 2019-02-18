@@ -1,5 +1,7 @@
-import LoginBox from "./login-box"
+import LoginBox from "components/login-box"
 
-export default () => (
+const LoginPage = () => (
   <LoginBox />
 )
+
+export default LoginPage;

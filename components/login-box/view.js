@@ -1,11 +1,11 @@
 import { Formik, Field } from "formik";
 
-export default ({onLogin}) => (
+export default ({ onLogin }) => (
   <Formik
     initialValues={{ email: "", code: "" }}
-    onSubmit={(values, { setSubmitting }) => {
-      onLogin(values)
-    }}
+    onSubmit={(values, { setSubmitting }) =>
+      onLogin(values).then(r => setSubmitting(false))
+    }
   >
     {({ handleSubmit, isSubmitting }) => (
       <form onSubmit={handleSubmit}>
